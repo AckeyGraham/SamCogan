@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {},
+    "functions": [],
+    "variables": {
+        "resourceGroupName": "Ep13" 
+    },
+    "resources": [
+        {
+            "name": "[variables('resourceGroupName')]",
+            "type": "Microsoft.Resources/resourceGroups",
+            "apiVersion": "2021-05-01",
+            "location": "eastus",
+            "dependsOn": [],
+            "tags": {}
+        }
+    ],
+    "outputs": {}
+}
